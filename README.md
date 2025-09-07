@@ -1,6 +1,16 @@
 # dataset-wrangler
 ---
+## 📌 batch_rename_images.py
 Here’s a ready-to-run Python CLI script that renames all images in a folder with sequential numbering, supports a preview of the first rename, and interactively handles collisions.
+
+Renames images in a folder with sequential numbering:
+  img_001.jpg, img_002.png, etc.
+
+**Features:**
+- - Configurable prefix, start index, zero-padding, and extensions
+- - --preview mode shows the first mapping without renaming
+- - Interactive collision handling: overwrite / skip / auto-rename
+- - Error logging to console
 
 ---
 Here’s a Python CLI script that splits all files in a source folder into train/val/test sets using a 70/20/10 ratio. It supports both copying (default) and moving, lets you set a random seed for reproducibility, and provides a preview mode.
