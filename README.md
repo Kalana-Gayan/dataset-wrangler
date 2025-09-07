@@ -36,14 +36,15 @@ Scans a dataset organized by class subdirectories, counts samples per class,and 
 dataset/
 
 **Assume your folder structure is:**
-`
+```
 ├── cat/
 │   ├── img1.jpg
 │   └── img2.png
 └── dog/
     ├── dog_a.jpg
     ├── dog_b.jpg
-    └── dog_c.png`
+    └── dog_c.png
+```
 
 **Usage:**
   python check_class_balance.py --dir /path/to/dataset [options]
