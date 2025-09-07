@@ -13,3 +13,18 @@ Removes duplicates (keeping one copy) and deletes unreadable image files.
 Usage:
   python cleanup_dataset.py --dir /path/to/folder [--dry-run]
 """
+
+
+
+Scans a dataset organized by class subdirectories, counts samples per class,
+and warns if any class is underrepresented based on ratio or absolute difference.
+
+Usage:
+  python check_class_balance.py --dir /path/to/dataset [options]
+
+Features:
+- Assumes each class is a subdirectory under the target directory.
+- Counts files with configurable extensions.
+- Alerts if any class count / max_count < ratio_threshold.
+- Alerts if max_count – class_count > diff_threshold.
+- Prints a summary table of counts.
