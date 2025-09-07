@@ -11,7 +11,8 @@ Here’s a ready-to-run Python CLI script that renames all images in a folder wi
 - --preview mode shows the first mapping without renaming
 - Interactive collision handling: overwrite / skip / auto-rename
 - Error logging to console
-
+**Usage**
+  `python3 batch_rename_images.py -d demo `
 ---
 ## 🌁split_dataset.py
 Here’s a Python CLI script that splits all files in a source folder into train/val/test sets using a 70/20/10 ratio. It supports both copying (default) and moving, lets you set a random seed for reproducibility, and provides a preview mode.
