@@ -12,8 +12,8 @@ Here’s a ready-to-run Python CLI script that renames all images in a folder wi
 - Interactive collision handling: overwrite / skip / auto-rename
 - Error logging to console
   
-**Usage**
-  `python3 batch_rename_images.py -d demo`
+**Usage:**
+`python3 batch_rename_images.py -d demo`
   
 ---
 ## 🌁split_dataset.py
