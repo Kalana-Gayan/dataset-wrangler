@@ -11,6 +11,7 @@ Here’s a ready-to-run Python CLI script that renames all images in a folder wi
 - --preview mode shows the first mapping without renaming
 - Interactive collision handling: overwrite / skip / auto-rename
 - Error logging to console
+  
 **Usage**
   `python3 batch_rename_images.py -d demo `
 ---
