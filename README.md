@@ -33,6 +33,17 @@ Scans a directory for duplicate files (by SHA256) and corrupt images. Removes du
 ---
 ## check_class_balance.py
 Scans a dataset organized by class subdirectories, counts samples per class,and warns if any class is underrepresented based on ratio or absolute difference.
+dataset/
+
+**Assume your folder structure is:**
+`
+├── cat/
+│   ├── img1.jpg
+│   └── img2.png
+└── dog/
+    ├── dog_a.jpg
+    ├── dog_b.jpg
+    └── dog_c.png`
 
 **Usage:**
   python check_class_balance.py --dir /path/to/dataset [options]
