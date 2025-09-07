@@ -28,7 +28,7 @@ Splits files in a directory into train/val/test subdirectories with a default 70
 Scans a directory for duplicate files (by SHA256) and corrupt images. Removes duplicates (keeping one copy) and deletes unreadable image files.
 
 **Usage:**
-  python cleanup_dataset.py --dir /path/to/folder [--dry-run]
+  `python cleanup_dataset.py --dir /path/to/folder [--dry-run]`
 
 ---
 ## 📍check_class_balance.py
